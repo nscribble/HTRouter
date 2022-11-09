@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HTRouter_Example' do
+  pod 'HTRouter', :path => '../'
+
+  target 'HTRouter_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

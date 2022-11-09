@@ -1,0 +1,23 @@
+PODS:
+  - HTRouter (0.2.3)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - HTRouter (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  HTRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HTRouter: 1aedbe0c37167d89dee4e8d1099fd81209f626b7
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: d47664b244082126ab69d1b46586b8e7c6b31279
+
+COCOAPODS: 1.11.3
